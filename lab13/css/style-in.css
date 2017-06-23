@@ -1,0 +1,253 @@
+*{
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: #522a06;
+}
+a:hover{text-decoration: underline;}
+body{
+	font:#522a06 10px '宋体';
+	background-image: url(../images/bodybg.jpg);
+}
+#header{
+		height: 250px;
+		background-image: url(../images/bg.jpg);
+		background-position: 0px 0px;
+		background-repeat: no-repeat;
+	}
+#banner{
+		width: 1000px;
+		height: 210px;
+		background-position: center;
+		margin: auto;
+	}
+#pc1{
+	position:absolute;
+	margin-top: 38px;
+	margin-left: 25px;
+}
+#nav{
+	height: 40px;
+	background-image: url(../images/nav.jpg);
+}
+.nav_body{
+		width: 1000px;
+		margin:auto;
+	}
+.nav_content{
+			width: 800px;
+			margin-left: 15%;
+			color: #fff;
+			font-weight: bold;
+			float: left;
+		}
+a{line-height: 40px;color: #fff;}
+a:hover{color:#f9f603;text-decoration: none; }
+#p1{ color:#f9f603;}
+.nav_search{
+			float: left;
+		}
+#ip1{
+	width: 140px; 
+	height: 19px; 
+	background-color: #f8f5ee;
+}
+#ip2{
+	width: 44px;
+	height: 21px;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #f8f5ee;
+}
+#content{
+	width: 1000px;
+	margin: auto;
+	clear:left;
+	clear:right;
+	margin-top: 100px;
+}
+.right{
+	float: right;
+}
+#content_bottom_left{
+	width: 1000px;
+	float: left;
+}
+#content_bottom_right{
+	width: 1000px;
+	margin-top: 100px;
+	float: right;
+}
+.shouzuo_pic{
+	width: 150px;
+	height:300px;
+	background-image: url(../images/shouzuo.jpg);
+	float: left;
+	margin-left: 50px;
+}
+.shouzuo_list{
+	width: 400px;
+	height: 300px;
+	margin-left: 20px;
+	float: left;
+}
+.bg3{
+	width: 400px;
+    height: 40px;
+    background-image: url(../images/shouzuolist.jpg);
+}
+.content-li{
+	width: 400px;
+	height: 260px;
+}
+.youce{
+	width: 260px;
+	height: 300px;
+	margin-left: 20px;
+	margin-right: 50px;
+	float: left;
+}
+.nav_denglu{
+	background-image: url(../images/denglu.jpg);
+	width: 260px;
+	height: 80px;
+}
+.news_announce{
+	background-image: url(../images/juzi.jpg);
+	width: 260px;
+	height: 220px;
+}
+.shuicai_pic{
+	width: 135px;
+	height:300px;
+	background-image: url(../images/shuicai.jpg);
+	float: left;
+	margin-left: 50px;
+}
+.shuicai{
+	width: 255px;
+	height: 300px;
+	margin-left: 20px;
+	float: left;
+}
+.xiangpizhang_pic{
+    width: 135px;
+	height:300px;
+	background-image: url(../images/xiangpizang.jpg);
+	float: left;
+	margin-left: 50px;
+}
+.xiangpizhang{
+	width: 225px;
+	height: 300px;
+	margin-left: 20px;
+	margin-right: 50px;
+	float: left;
+}
+.fengcai{
+	background-image: url(../images/fengcai_bg1.png);
+	background-repeat: no-repeat;
+	width: 890px;
+	height: 54px;
+	margin-top: 270px;
+	padding: 30px;
+	clear: left;
+	clear: right;
+}
+.fengcai-right{
+	background-image: url(../images/more.png);
+	background-repeat: no-repeat;
+	height: 32px;
+	width: 20px;
+	float: right;
+	margin-right: 30px;
+}
+.fengcai-bottom{
+	background-image: url(../images/fengcai_bg2.png);
+	background-repeat: no-repeat;
+	width: 890px;
+	height: 160px;
+	clear: both;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.fengcai-li{
+	height: 136px;
+	float: left;
+	list-style-type: none;
+}
+#content_bottom_right{
+	float: right;
+}
+.cbr-title{
+	background-image: url(../images/show.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 23px;
+}
+.cbr-bottom{
+	background-image: url(../images/show_bg.png);
+	background-repeat: no-repeat;
+	height: 362px;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+.cbrb-title{
+	background-image: url(../images/mingjia.jpg);
+	background-repeat: no-repeat;
+	width: 224px;
+	height: 187px;
+	margin: auto;
+}
+.text{
+	width: 224px;
+	margin: auto;
+	font: 16px '宋体';
+	line-height: 15px;
+	padding: 15px;
+}
+#text{
+	font-weight: bold;
+	color: red;
+}
+.cbrb-bottom{
+	background-image: url(../images/view.png);
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 15px;
+	float: right;
+	margin-right: 15px;
+}
+#footer{
+	background-image: url(../images/foot.gif);
+	background-repeat: no-repeat;
+	height: 105px;
+	clear: both;
+}
+.footer-ul{
+	list-style-type: none;
+	width: 33%;
+	height: 50px;
+	margin:auto;
+	padding-top: 20px;
+	line-height: 50px;
+}
+.footer-li{
+	color: black;
+	float: left;
+}
+a:link{
+	text-decoration: none;
+}
+.line{
+	background-image: url(../images/line.jpg);
+	background-repeat: no-repeat;
+	width: 50%;
+	margin-left: 30%;
+	height: 2px;
+}
+.footer-bottom{
+	line-height: 20px;
+	text-align: center;
+}

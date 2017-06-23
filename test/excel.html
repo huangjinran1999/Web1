@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>插入表格</title>
+        <meta http-equiv="Content-type"
+        content="text/html" charset="UTF-8"/>
+    </head>
+    <body bgcolor="pink">
+        <table border="3px" bodercolor="pink" background="t018f2a4b8d030e11ab.gif" cellpadding="2px" cellspacing="2px" width="500px" height="300px" align="center">
+            <tr align="center">
+             <th>姓名</th>
+             <th>年龄</th>
+             <th>成绩</th>	
+            </tr>
+            <tr align="center">
+             <td rowspan="2">李四白</td>
+             <td>20</td>
+             <td>100</td>	
+            </tr>
+            <tr align="center">
+             <td>19</td>
+             <td>80</td>
+            </tr>
+            <tr align="center">
+             <td>王小麻</td>
+             <td colspan="2">balabala</td>
+            </tr>
+         
+        </table>
+        <form>
+           姓名：
+           <input type="text" name="name"/><br/>
+           密码：
+           <input type="password" name="pass"/><br/>
+           性别：
+           <input type="radio" value="Male" name="sex" checked="checked"/>男
+           <input type="radio" value="feMale" name="sex"/>女<br/>
+           所在城市：
+           <input type="radio" value="shijiazhuang" name="city" checked="checked"/>石家庄
+           <input type="radio" value="beijing" name="city"/>北京
+           <input type="radio" value="tianjin" name="city"/>天津<br/>
+           你希望到哪里旅游：
+           <input type="checkbox" value="dali" name="where" checked="checked"/>大理
+           <input type="checkbox" value="shanghai" name="where"/>上海
+           <input type="checkbox" value="qingdao" name="where"/>青岛
+           <input type="checkbox" value="sanya" name="where"/>三亚
+           <input type="checkbox" value="huangshan" name="where"/>黄山
+           <input type="checkbox" value="xian" name="where"/>西安
+           <input type="checkbox" value="haerbin" name="where"/>哈尔滨
+           <input type="checkbox" value="qita" name="where"/>其他
+           <input type="text" name="where"/><br/>
+           <input type="file" name="files"/><br/>
+           <input type="submit" value="提交" name="sub"/>
+           <input type="button" value="普通" name="but"/>
+           <input type="reset" value="重置" name="res"/><br/>
+           <textarea name="cat" rows="3" cols="30">
+           	The cat is playing in the garden.
+           </textarea>
+        </form>
+        
+    </body>
+</html>
